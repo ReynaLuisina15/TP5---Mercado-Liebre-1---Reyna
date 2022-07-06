@@ -1,0 +1,55 @@
+/* Header */
+.body__header {
+    background-color: var(--colorAmarillo);
+}
+
+.body__header__subtitulo {
+    text-align: center;
+}
+
+.body__header__nav ul {
+
+    padding-left: 0;
+}
+
+.body__header__nav ul li a {
+    color: black;
+}
+
+.body__header__nav__burger {
+    text-align: center;
+}
+
+.body__header__nav__burger i {
+    color: var(--colorGrisClaro);
+    background-color: var(--colorCeleste);
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 15%;
+
+}
+
+
+
+/* Main */
+
+/* Footer */
+
+
+.footer h4 {
+    font-weight: 500px;
+    font-size: 20px;
+    margin: 0px 0 0 0;
+}
+
+.footer div {
+    color: var(--colorCeleste);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
