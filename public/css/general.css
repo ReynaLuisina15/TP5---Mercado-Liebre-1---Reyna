@@ -17,9 +17,22 @@
 /*Tipografías
 Familia: 'Roboto'*/
 
-body {
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
     font-family: var(--tipografia);
-    font-weight: bold;
+}
+
+.main h4 {
+    font-size: var(--sizeDescripciones);
+}
+.main__section__article--precio {
+    font-size: var(--sizePrecios);
+}
+
+.main__section__article--desc {
+    font-size: var(--sizeDescuentos);
 }
 
 li {
@@ -32,7 +45,18 @@ a{
     text-decoration: none;
 }
 
+h3 {
+    font-size: var(--sizeTitulares);
+}
+
 .footer {
     text-align: center;
     color: var(--colorGrisOscuro)
 }
+
+.footer p {
+    font-size: var(--sizeCuerpoTexto);
+}
+
+
+

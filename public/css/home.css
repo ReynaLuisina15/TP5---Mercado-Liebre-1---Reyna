@@ -5,20 +5,26 @@
 
 .body__header__subtitulo {
     text-align: center;
-}
-
-.body__header__nav ul {
-
-    padding-left: 0;
+    margin: 20px 0px 20px;
 }
 
 .body__header__nav ul li a {
     color: black;
 }
 
+.body__header__nav--ul1 {
+    margin-bottom: 20px;
+}
+
+.body__header__nav--ul2 {
+    margin-bottom: 20px;
+}
+
 .body__header__nav__burger {
     text-align: center;
+    padding-bottom: 20px;
 }
+
 
 .body__header__nav__burger i {
     color: var(--colorGrisClaro);
@@ -27,7 +33,7 @@
     height: 35px;
     font-size: 20px;
     border-radius: 15%;
-
+    padding: 8px;
 }
 
 
@@ -38,14 +44,14 @@
 
 
 .footer h4 {
-    font-weight: 500px;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0px 0 0 0;
+    font-weight:bold;
 }
 
 .footer div {
     color: var(--colorCeleste);
-    font-size: 30px;
+    font-size: 2em;
     margin-bottom: 10px;
 }
 
