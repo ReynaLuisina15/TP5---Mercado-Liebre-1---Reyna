@@ -24,16 +24,6 @@ Familia: 'Roboto'*/
     font-family: var(--tipografia);
 }
 
-.main h4 {
-    font-size: var(--sizeDescripciones);
-}
-.main__section__article--precio {
-    font-size: var(--sizePrecios);
-}
-
-.main__section__article--desc {
-    font-size: var(--sizeDescuentos);
-}
 
 li {
     list-style: none;
@@ -49,14 +39,25 @@ h3 {
     font-size: var(--sizeTitulares);
 }
 
+.body__banner {
+   width: 100%;
+}
+
+.body__banner img {
+    width: 100%;
+}
+
+.main {
+    width: 90%;
+    text-align: center;
+
+}
+
 .footer {
     text-align: center;
     color: var(--colorGrisOscuro)
 }
 
-.footer p {
-    font-size: var(--sizeCuerpoTexto);
-}
 
 
 

@@ -1,12 +1,15 @@
 /* Header */
 .body__header {
     background-color: var(--colorAmarillo);
+
 }
+
 
 .body__header__subtitulo {
     text-align: center;
     margin: 20px 0px 20px;
 }
+
 
 .body__header__nav ul li a {
     color: black;
@@ -14,10 +17,12 @@
 
 .body__header__nav--ul1 {
     margin-bottom: 20px;
+    display: none;
 }
 
 .body__header__nav--ul2 {
     margin-bottom: 20px;
+    display: none;
 }
 
 .body__header__nav__burger {
@@ -40,22 +45,108 @@
 
 /* Main */
 
+.main__section__article {
+    margin-bottom: 10px;
+
+}
+
+.main__section__article__text-camion {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: none;
+}
+
+
+.main__section__article--camion {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--colorVerde);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.main__section__article--camion i {
+    color: var(--colorVerde);
+
+}
+
+.main__section__article--precio {
+    font-size: var(--sizePrecios);
+}
+
+.main__section__article--desc {
+    font-size: var(--sizeDescuentos);
+    color: var(--colorVerde);
+}
+
+.main h4 {
+    font-size: var(--sizeDescripciones);
+}
+
+
 /* Footer */
 
 
 .footer h4 {
     font-size: 18px;
     margin: 0px 0 0 0;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .footer div {
     color: var(--colorCeleste);
     font-size: 2em;
     margin-bottom: 10px;
+
 }
 
 .footer p {
     margin-top: 0px;
     margin-bottom: 60px;
+    font-size: var(--sizeCuerpoTexto);
+}
+
+
+/* TABLET*/
+
+@media (min-width: 361px) {
+
+    
+
+    .body__header {
+        display:block;
+    }
+
+    .body__header__nav__burger {
+        display: none;
+    }
+
+    .main__section__article {
+        box-shadow: 0 0px 10px rgb(100, 100, 100);
+    }
+
+    .main__section__article__text-camion {
+display:block; 
+    }
+}
+
+/*DESKTOP*/
+
+@media (min-width:769px) {
+
+    .body__header {
+        display:block;
+    }
+
+    .body__header__nav__burger {
+        display: none;
+    }
+
+    .main__section__article {
+        box-shadow: 0 0px 10px rgb(100, 100, 100);
+    }
+
+    .main__section__article__text-camion {
+        display:block; 
+            }
 }
