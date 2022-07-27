@@ -37,6 +37,7 @@ a{
 
 h3 {
     font-size: var(--sizeTitulares);
+    width: 100%;
 }
 
 .body__banner {
@@ -45,10 +46,11 @@ h3 {
 
 .body__banner img {
     width: 100%;
+    
 }
 
 .main {
-    width: 90%;
+    width: 100%;
     text-align: center;
 
 }
