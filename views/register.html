@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre | Register </title>
+    <link rel="stylesheet" href="/css/styless.css">
+    <script src="https://kit.fontawesome.com/c125233786.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body__register">
+    <form action="/registro" method="">
+        <div class="body__register__form--div">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" name="nombreapellido" id="nombreapellido" required>
+        </div>
+        <div class="body__register__form--div">
+            <label for="usuario">Nombre de Usuari@</label>
+            <input type="text" name="usuario" id="usuario" required>
+        </div>
+        <div class="body__register__form--div">
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" name="fecha" id="fecha" required>
+        </div>
+        <div class="body__register__form--div">
+            <label for="domicilio">Domicilio</label>
+            <input type="text" name="domicilio" id="domicilio" required>
+        </div>
+        <p>Perfil de Usuario</p>
+        <div class="body__register__form--divperfilusuario">
+            
+            <label for=""> <input type="radio" name="CompradorVendedor" id="" >Comprador</label>
+            <label for=""><input type="radio" name="CompradorVendedor" id="">Vendedor</label>
+        </div>
+        <p>Categorías de Interés</p>
+        <div class="body__register__form--divcategorias">
+            
+            <label for=""><input type="checkbox" name="categorias" id="" required>Electro</label>
+            <label for=""><input type="checkbox" name="categorias" id="" required>Moda</label>
+            <label for=""><input type="checkbox" name="categorias" id="" required>Hogas</label>
+            <label for=""><input type="checkbox" name="categorias" id="" required>Juguetería</label>
+            <label for=""><input type="checkbox" name="categorias" id="" required>Vida Sana</label>
+        </div>
+        <p>Foto de Usuario</p>
+        <div class="body__register__form--divfotousuario">
+           
+            <input type="file" name="imagendeusuario" accept="jpg" id="" required>
+        </div>
+        <div class="body__register__form--div">
+            <label for="clave">Contraseña</label>
+            <input type="password" name="clave" id="clave" required>
+        </div>
+        <div class="body__register__form--div">
+            <label for="confirmarclave">Confirmar Contraseña</label>
+            <input type="password" name="confirmarclave" id="confirmarclave" required>
+        </div>
+        <div class="body__register__form--divbotones">
+            <button type="submit"><a href="/">Enviar</a></button>
+            <button type="reset">Borrar</button>
+        </div>
+
+        <label for="">
+
+        </label>
+    </form>
+</body>
+
+</html>
